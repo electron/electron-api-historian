@@ -1,0 +1,22 @@
+{
+  "name": "electron-api-historian",
+  "description": "Find the birthday of every Electron API",
+  "version": "1.0.0",
+  "main": "index.json",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "dugite": "^1.53.0",
+    "lodash": "^4.17.4",
+    "make-promises-safe": "^1.1.0",
+    "mocha": "^4.0.1",
+    "standard": "^10.0.3",
+    "standard-markdown": "^4.0.2"
+  },
+  "dependencies": {
+    "semver": "^5.4.1"
+  },
+  "scripts": {
+    "build": "node script/build.js"
+  }
+}
