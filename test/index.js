@@ -6,4 +6,4 @@ describe('historian', () => {
   it('is an object', () => {
     historian.should.be.an('object')
   })
-}
+})

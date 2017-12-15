@@ -10,13 +10,17 @@
     "lodash": "^4.17.4",
     "make-promises-safe": "^1.1.0",
     "mocha": "^4.0.1",
+    "semver": "^5.4.1",
     "standard": "^10.0.3",
     "standard-markdown": "^4.0.2"
   },
-  "dependencies": {
-    "semver": "^5.4.1"
-  },
   "scripts": {
-    "build": "node script/build.js"
+    "build": "node script/build.js",
+    "test": "mocha && standard --fix && standard-markdown"
+  },
+  "standard": {
+    "ignore": [
+      "electron/"
+    ]
   }
 }
