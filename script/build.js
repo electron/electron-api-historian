@@ -63,7 +63,7 @@ async function go() {
 
   const results = {}
   masterFiles.forEach(file => {
-    const firstTag = tags.find(tag => tagFiles[tag].includes(file))
+    const firstTag = tags.find(tag => tagFiles[tag] && tagFiles[tag].includes(file))
     if (firstTag) results[file] = firstTag
   })
 
