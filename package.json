@@ -1,7 +1,8 @@
 {
   "name": "electron-api-historian",
   "description": "Find the birthday of every Electron API",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
+  "repository": "https://github.com/electron/electron-api-historian",
   "main": "index.json",
   "license": "MIT",
   "devDependencies": {
@@ -12,11 +13,13 @@
     "mocha": "^4.0.1",
     "semver": "^5.4.1",
     "standard": "^10.0.3",
-    "standard-markdown": "^4.0.2"
+    "standard-markdown": "^4.0.2",
+    "semantic-release": "^8.2.0"
   },
   "scripts": {
     "build": "node script/build.js",
-    "test": "mocha && standard --fix && standard-markdown"
+    "test": "mocha && standard --fix && standard-markdown",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "standard": {
     "ignore": [
