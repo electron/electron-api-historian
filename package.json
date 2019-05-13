@@ -1,7 +1,7 @@
 {
   "name": "electron-api-historian",
   "description": "Find the birthday of every Electron API",
-  "version": "0.0.0",
+  "version": "1.1.1",
   "repository": "https://github.com/electron/electron-api-historian",
   "main": "index.json",
   "license": "MIT",
