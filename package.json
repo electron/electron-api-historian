@@ -16,6 +16,7 @@
     "standard": "^10.0.3"
   },
   "scripts": {
+    "update": "./script/update.sh",
     "build": "node script/build.js",
     "test": "mocha && standard --fix",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
