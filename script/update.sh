@@ -37,6 +37,6 @@ fi
 npm test
 
 git add index.json
-git commit -am "feat: update electron-releases"
+git commit -am "feat: update electron-api-historian"
 git pull --rebase && git push && git push --tags
 npm run semantic-release
