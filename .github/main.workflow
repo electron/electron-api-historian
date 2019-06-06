@@ -8,7 +8,6 @@ action "Update history files" {
   args = "run update"
   secrets = [
     "GH_TOKEN",
-    "NPM_AUTH_TOKEN",
   ]
 }
 
