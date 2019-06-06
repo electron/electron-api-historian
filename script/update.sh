@@ -38,4 +38,3 @@ npm test
 git add index.json
 git commit -am "feat: update history (electron@$ELECTRON_SHA)"
 git pull --rebase && git push
-npm run semantic-release
