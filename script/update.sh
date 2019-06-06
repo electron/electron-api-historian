@@ -22,7 +22,6 @@ if [ "$(git status --porcelain -- electron)" = "" ]; then
 fi
 git add electron
 ELECTRON_SHA=$(git submodule status --cached electron | awk '{print $1}')
-git commit -m "chore: update to latest electron ($ELECTRON_SHA)"
 
 npm run build
 
@@ -37,6 +36,6 @@ fi
 npm test
 
 git add index.json
-git commit -am "feat: update electron-api-historian"
-git pull --rebase && git push && git push --tags
+git commit -am "feat: update history (electron@$ELECTRON_SHA)"
+git pull --rebase && git push
 npm run semantic-release
