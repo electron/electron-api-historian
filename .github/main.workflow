@@ -1,6 +1,6 @@
 workflow "Update data" {
   resolves = ["Update history files"]
-  on = "schedule(0 21 * * *)"
+  on = "schedule(0 9 * * *)"
 }
 
 action "Update history files" {
