@@ -44,17 +44,20 @@ async function exec (command) {
 
 async function go () {
   const tagFiles = {}
+  const allFiles = new Set()
   let tags = await git('tag')
   tags = tags.sort(semver.compare)
 
   await git(`checkout master`)
   const masterFiles = await exec(`find docs -name '*.md'`)
+  masterFiles.forEach(file => allFiles.add(file))
 
   for (let tag of tags) {
     console.log(tag)
     await git(`checkout ${tag}`)
     try {
       let files = await exec(`find docs -name '*.md'`)
+      files.forEach(file => allFiles.add(file))
       tagFiles[tag] = files
     } catch (e) {
       continue
@@ -62,10 +65,10 @@ async function go () {
   }
 
   const results = {}
-  masterFiles.forEach(file => {
+  for (const file of allFiles) {
     const firstTag = tags.find(tag => tagFiles[tag] && tagFiles[tag].includes(file))
     if (firstTag) results[file] = firstTag
-  })
+  }
 
   fs.writeFileSync(
     path.join(__dirname, '../index.json'),
