@@ -25,7 +25,7 @@ action "Release master branch only" {
 }
 
 action "Install dependencies" {
-  uses "actions/npm@master"
+  uses = "actions/npm@master"
   needs = "Release master branch only"
   args = "ci"
 }
