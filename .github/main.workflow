@@ -31,7 +31,7 @@ action "Install dependencies" {
 }
 
 action "Run tests" {
-  uses "actions/npm@master"
+  uses = "actions/npm@master"
   needs = ["Install dependencies"]
   args = "test"
 }
