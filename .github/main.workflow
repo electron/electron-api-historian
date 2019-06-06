@@ -1,6 +1,6 @@
 workflow "Update and release" {
-  on = "schedule(0 9 * * *)"
   resolves = ["Update data and release"]
+  on = "schedule(0 21 * * *)"
 }
 
 action "Update data and release" {
