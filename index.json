@@ -48,6 +48,7 @@
   "docs/api/structures/file-path-with-headers.md": "v7.0.0-nightly.20190629",
   "docs/api/structures/string-protocol-response.md": "v7.0.0-nightly.20190629",
   "docs/api/structures/upload-data.md": "v1.4.5",
+  "docs/api/structures/memory-info.md": "v1.6.9",
   "docs/api/structures/protocol-response-upload-data.md": "v7.0.0-nightly.20190629",
   "docs/api/structures/shortcut-details.md": "v1.4.4",
   "docs/api/structures/upload-file.md": "v1.4.7",
@@ -310,6 +311,5 @@
   "docs/api/structures/upload-file-system.md": "v1.4.7",
   "docs/development/upgrading-chrome.md": "v1.5.1",
   "docs/tutorial/shortcuts.md": "v1.6.2",
-  "docs/api/structures/memory-info.md": "v1.6.9",
   "docs/api/promisification.md": "v5.0.0-beta.1"
 }
