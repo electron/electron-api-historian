@@ -78,7 +78,7 @@
   "docs/api/structures/remove-client-certificate.md": "v1.4.12",
   "docs/api/structures/certificate.md": "v1.4.4",
   "docs/api/structures/mouse-input-event.md": "v7.0.0-beta.1",
-  "docs/api/structures/extension-info.md": "v8.0.0-nightly.20190806",
+  "docs/api/structures/extension-info.md": "v7.0.0-beta.2",
   "docs/api/structures/certificate-principal.md": "v1.4.7",
   "docs/api/structures/ipc-main-invoke-event.md": "v7.0.0-beta.1",
   "docs/api/structures/io-counters.md": "v1.6.9",
