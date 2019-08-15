@@ -2,7 +2,7 @@ on:
   schedules:
   - cron: 0 9 * * *
 
-name: Update data
+name: Update API History Data
 
 jobs:
   updateHistoryFiles:
