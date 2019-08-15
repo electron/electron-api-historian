@@ -12,14 +12,11 @@ jobs:
       with:
         node-version: '12.x'
     - name: Install dependencies
-      if: github['ref'] == 'refs/heads/master'
       run: npm ci
     - name: Run tests
-      if: github['ref'] == 'refs/heads/master'
       run: npm test
     - name: Publish via semantic-release
       if: github['ref'] == 'refs/heads/master'
-      uses: actions/npm@master
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
         NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
