@@ -1,0 +1,18 @@
+on:
+  schedules:
+  - cron: 0 9 * * *
+
+name: Update data
+
+jobs:
+  updateHistoryFiles:
+    name: Update history files
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Update history files
+      uses: actions/npm@master
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      with:
+        args: run update

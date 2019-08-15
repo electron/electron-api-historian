@@ -1,0 +1,26 @@
+on: push
+
+name: Publish new release
+
+jobs:
+  releaseMasterBranchOnly:
+    name: Publish new release
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - name: Install dependencies
+      if: github['ref'] == 'refs/heads/master'
+      run: npm ci
+    - name: Run tests
+      if: github['ref'] == 'refs/heads/master'
+      run: npm test
+    - name: Publish via semantic-release
+      if: github['ref'] == 'refs/heads/master'
+      uses: actions/npm@master
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+      run: npm run semantic-release
