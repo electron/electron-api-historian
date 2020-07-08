@@ -18,7 +18,7 @@ pushd electron && git checkout origin/master && popd
 # bail if the submodule sha didn't change
 if [ "$(git status --porcelain -- electron)" = "" ]; then
   echo "electron origin/master ref has not changed; goodbye!"
-  exit 78
+  exit 0
 fi
 git add electron
 ELECTRON_SHA=$(git submodule status --cached electron | awk '{print $1}')
@@ -30,7 +30,7 @@ npm run build
 # so don't include it in the check
 if [ "$(git status --porcelain -- index.json)" = "" ]; then
   echo "no new content found; goodbye!"
-  exit 78
+  exit 0
 fi
 
 npm test
