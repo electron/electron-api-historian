@@ -61,6 +61,7 @@
   "docs/api/structures/protocol-response.md": "v7.0.0-beta.1",
   "docs/api/structures/ipc-main-invoke-event.md": "v7.0.0-beta.1",
   "docs/api/structures/file-filter.md": "v1.4.7",
+  "docs/api/structures/serial-port.md": "v12.0.0-nightly.20200929",
   "docs/api/structures/upload-blob.md": "v1.4.7",
   "docs/api/structures/upload-file.md": "v1.4.7",
   "docs/api/structures/upload-raw-data.md": "v1.4.7",
