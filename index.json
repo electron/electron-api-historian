@@ -182,7 +182,6 @@
   "docs/tutorial/debugging-main-process.md": "v0.22.3",
   "docs/faq.md": "v1.2.7",
   "docs/styleguide.md": "v0.31.1",
-  "docs/breaking-changes-ns.md": "v9.0.0-beta.1",
   "docs/development/README.md": "v3.0.0-beta.1",
   "docs/development/testing.md": "v2.0.0-beta.1",
   "docs/development/debugging-instructions-macos-xcode.md": "v3.0.0-beta.1",
@@ -344,5 +343,6 @@
   "docs/api/structures/string-protocol-response.md": "v7.0.0-beta.1",
   "docs/api/protocol-ns.md": "v7.0.0-beta.1",
   "docs/api/breaking-changes-ns.md": "v7.0.0-beta.1",
-  "docs/api/structures/new-window-event.md": "v7.3.0"
+  "docs/api/structures/new-window-event.md": "v7.3.0",
+  "docs/breaking-changes-ns.md": "v9.0.0-beta.1"
 }
