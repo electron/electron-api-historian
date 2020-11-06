@@ -186,6 +186,7 @@
   "docs/README.md": "v0.3.4",
   "docs/glossary.md": "v1.4.14",
   "docs/development/chromium-development.md": "v1.6.5",
+  "docs/development/clang-tidy.md": "v12.0.0-nightly.20201105",
   "docs/development/build-instructions-gn.md": "v3.0.0-beta.1",
   "docs/development/testing.md": "v2.0.0-beta.1",
   "docs/development/pull-requests.md": "v2.0.0-beta.1",
