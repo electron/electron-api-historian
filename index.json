@@ -179,6 +179,7 @@
   "docs/tutorial/recent-documents.md": "v3.0.0-beta.1",
   "docs/tutorial/testing-widevine-cdm.md": "v4.0.0-beta.1",
   "docs/tutorial/electron-versioning.md": "v1.1.1",
+  "docs/tutorial/message-ports.md": "v13.0.0-nightly.20210211",
   "docs/tutorial/in-app-purchases.md": "v3.0.0-beta.1",
   "docs/tutorial/debugging-vscode.md": "v12.0.0-beta.1",
   "docs/tutorial/accessibility.md": "v1.3.5",
