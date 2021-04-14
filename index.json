@@ -59,7 +59,7 @@
   "docs/tutorial/keyboard-shortcuts.md": "v1.6.3",
   "docs/tutorial/boilerplates-and-clis.md": "v3.0.0-beta.1",
   "docs/tutorial/updates.md": "v1.8.0",
-  "docs/tutorial/message-ports.md": "v13.0.0-beta.1",
+  "docs/tutorial/message-ports.md": "v12.0.3",
   "docs/tutorial/multithreading.md": "v1.6.4",
   "docs/tutorial/using-native-node-modules.md": "v0.16.3",
   "docs/tutorial/web-embeds.md": "v9.0.0-beta.1",
@@ -161,7 +161,6 @@
   "docs/api/structures/product.md": "v3.0.0-beta.1",
   "docs/api/structures/extension-info.md": "v7.0.0-beta.2",
   "docs/api/structures/sharing-item.md": "v12.0.0-beta.1",
-  "docs/api/structures/post-data.md": "v10.0.0-beta.1",
   "docs/api/dock.md": "v7.0.0-beta.1",
   "docs/api/menu.md": "v0.12.3",
   "docs/api/locales.md": "v1.2.7",
@@ -352,5 +351,6 @@
   "docs/api/structures/string-protocol-response.md": "v7.0.0-beta.1",
   "docs/api/breaking-changes-ns.md": "v7.0.0-beta.1",
   "docs/api/structures/new-window-event.md": "v7.3.0",
-  "docs/breaking-changes-ns.md": "v9.0.0-beta.1"
+  "docs/breaking-changes-ns.md": "v9.0.0-beta.1",
+  "docs/api/structures/post-data.md": "v10.0.0-beta.1"
 }
