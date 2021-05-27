@@ -111,7 +111,7 @@
   "docs/api/structures/bluetooth-device.md": "v1.4.5",
   "docs/api/structures/product.md": "v3.0.0-beta.1",
   "docs/api/structures/mime-typed-buffer.md": "v1.4.14",
-  "docs/api/structures/user-default-types.md": "v14.0.0-nightly.20210420",
+  "docs/api/structures/user-default-types.md": "v14.0.0-beta.1",
   "docs/api/structures/notification-action.md": "v1.7.4",
   "docs/api/structures/process-memory-info.md": "v1.6.9",
   "docs/api/structures/mouse-input-event.md": "v7.0.0-beta.1",
