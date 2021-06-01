@@ -48,9 +48,9 @@ async function go () {
   let tags = await git('tag')
   tags = tags.sort(semver.compare)
 
-  await git(`checkout master`)
-  const masterFiles = await exec(`find docs -name '*.md'`)
-  masterFiles.forEach(file => allFiles.add(file))
+  await git(`checkout main`)
+  const mainFiles = await exec(`find docs -name '*.md'`)
+  mainFiles.forEach(file => allFiles.add(file))
 
   for (let tag of tags) {
     console.log(tag)

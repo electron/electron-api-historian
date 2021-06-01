@@ -14,10 +14,10 @@ git config user.email electron@github.com
 git config user.name electron-bot
 
 # Update the electron submodule
-pushd electron && git checkout origin/master && popd
+pushd electron && git checkout origin/main && popd
 # bail if the submodule sha didn't change
 if [ "$(git status --porcelain -- electron)" = "" ]; then
-  echo "electron origin/master ref has not changed; goodbye!"
+  echo "electron origin/main ref has not changed; goodbye!"
   exit 0
 fi
 git add electron
