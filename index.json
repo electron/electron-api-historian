@@ -36,6 +36,7 @@
   "docs/tutorial/installation.md": "v1.7.6",
   "docs/tutorial/mac-app-store-submission-guide.md": "v0.34.0",
   "docs/tutorial/in-app-purchases.md": "v3.0.0-beta.1",
+  "docs/tutorial/tray.md": "v15.0.0-nightly.20210615",
   "docs/tutorial/offscreen-rendering.md": "v1.3.3",
   "docs/tutorial/performance.md": "v7.0.1",
   "docs/tutorial/using-native-node-modules.md": "v0.16.3",
