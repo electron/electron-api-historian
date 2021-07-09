@@ -136,6 +136,7 @@
   "docs/api/structures/file-path-with-headers.md": "v7.0.0-beta.1",
   "docs/api/structures/io-counters.md": "v1.6.9",
   "docs/api/structures/event.md": "v6.0.0-beta.1",
+  "docs/api/structures/web-request-filter.md": "v15.0.0-nightly.20210708",
   "docs/api/structures/serial-port.md": "v12.0.0-beta.1",
   "docs/api/structures/point.md": "v1.6.6",
   "docs/api/structures/segmented-control-segment.md": "v1.6.4",
