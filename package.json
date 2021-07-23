@@ -11,7 +11,7 @@
     "lodash": "^4.17.4",
     "make-promises-safe": "^1.1.0",
     "mocha": "^4.0.1",
-    "semantic-release": "^15.13.15",
+    "semantic-release": "^17.2.3",
     "semver": "^5.4.1",
     "standard": "^10.0.3"
   },
