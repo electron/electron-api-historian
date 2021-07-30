@@ -44,6 +44,7 @@
   "docs/tutorial/using-native-node-modules.md": "v0.16.3",
   "docs/tutorial/repl.md": "v1.4.4",
   "docs/tutorial/multithreading.md": "v1.6.4",
+  "docs/tutorial/creating-api.md": "v16.0.0-nightly.20210729",
   "docs/tutorial/process-model.md": "v12.0.10",
   "docs/tutorial/performance.md": "v7.0.1",
   "docs/tutorial/keyboard-shortcuts.md": "v1.6.3",
