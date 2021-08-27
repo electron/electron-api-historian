@@ -170,7 +170,7 @@
   "docs/api/context-bridge.md": "v6.1.0",
   "docs/api/cookies.md": "v1.4.8",
   "docs/api/touch-bar-label.md": "v1.6.3",
-  "docs/api/safe-storage.md": "v16.0.0-nightly.20210806",
+  "docs/api/safe-storage.md": "v15.0.0-alpha.10",
   "docs/api/process.md": "v0.12.6",
   "docs/api/extensions.md": "v9.0.0-beta.24",
   "docs/api/protocol.md": "v0.12.3",
