@@ -364,6 +364,6 @@
   "docs/api/structures/new-window-event.md": "v7.3.0",
   "docs/breaking-changes-ns.md": "v9.0.0-beta.1",
   "docs/api/structures/post-data.md": "v10.0.0-beta.1",
-  "docs/api/structures/overlay-options.md": "v14.0.0",
+  "docs/api/structures/overlay-options.md": "v13.5.0",
   "docs/tutorial/creating-api.md": "v16.0.0-nightly.20210729"
 }
