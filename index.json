@@ -176,7 +176,7 @@
   "docs/tutorial/sandbox.md": "v12.0.8",
   "docs/tutorial/fuses.md": "v12.0.0-beta.1",
   "docs/tutorial/windows-arm.md": "v8.0.0-beta.1",
-  "docs/tutorial/window-customization.md": "v17.0.0-nightly.20211019",
+  "docs/tutorial/window-customization.md": "v16.0.0-beta.3",
   "docs/tutorial/in-app-purchases.md": "v3.0.0-beta.1",
   "docs/tutorial/macos-dock.md": "v3.0.0-beta.1",
   "docs/tutorial/linux-desktop-actions.md": "v3.0.0-beta.1",
@@ -204,7 +204,6 @@
   "docs/development/setting-up-symbol-server.md": "v0.19.2",
   "docs/development/pull-requests.md": "v2.0.0-beta.1",
   "docs/development/v8-development.md": "v1.6.5",
-  "docs/development/electron-vs-nwjs.md": "v10.0.0-beta.1",
   "docs/development/goma.md": "v9.0.0-beta.1",
   "docs/development/clang-format.md": "v1.4.4",
   "docs/development/build-instructions-linux.md": "v0.10.0",
@@ -365,6 +364,7 @@
   "docs/api/structures/new-window-event.md": "v7.3.0",
   "docs/breaking-changes-ns.md": "v9.0.0-beta.1",
   "docs/api/structures/post-data.md": "v10.0.0-beta.1",
+  "docs/development/electron-vs-nwjs.md": "v10.0.0-beta.1",
   "docs/api/structures/overlay-options.md": "v13.5.0",
   "docs/tutorial/creating-api.md": "v16.0.0-nightly.20210729"
 }
