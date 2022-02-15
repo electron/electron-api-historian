@@ -50,6 +50,7 @@
   "docs/tutorial/web-embeds.md": "v9.0.0-beta.1",
   "docs/tutorial/keyboard-shortcuts.md": "v1.6.3",
   "docs/tutorial/recent-documents.md": "v3.0.0-beta.1",
+  "docs/tutorial/ipc.md": "v17.0.1",
   "docs/tutorial/window-customization.md": "v15.3.1",
   "docs/tutorial/spellchecker.md": "v10.0.0-beta.1",
   "docs/tutorial/electron-timelines.md": "v6.0.0-beta.1",
