@@ -212,6 +212,7 @@
   "docs/api/desktop-capturer.md": "v0.36.0",
   "docs/api/menu-item.md": "v0.12.3",
   "docs/api/touch-bar-color-picker.md": "v1.6.3",
+  "docs/api/push-notifications.md": "v21.0.0-nightly.20220713",
   "docs/api/global-shortcut.md": "v0.15.2",
   "docs/api/net.md": "v1.4.5",
   "docs/api/touch-bar-label.md": "v1.6.3",
