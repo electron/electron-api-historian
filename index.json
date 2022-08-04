@@ -123,7 +123,7 @@
   "docs/api/accelerator.md": "v0.15.3",
   "docs/api/message-port-main.md": "v9.1.0",
   "docs/api/debugger.md": "v1.4.8",
-  "docs/api/push-notifications.md": "v21.0.0-nightly.20220713",
+  "docs/api/push-notifications.md": "v21.0.0-alpha.1",
   "docs/api/net-log.md": "v3.0.0-beta.1",
   "docs/api/window-open.md": "v0.22.0",
   "docs/api/screen.md": "v0.12.3",
