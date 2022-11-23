@@ -54,6 +54,7 @@
   "docs/api/structures/io-counters.md": "v1.6.9",
   "docs/api/structures/ipc-main-event.md": "v6.0.0-beta.1",
   "docs/api/structures/service-worker-info.md": "v9.0.0-beta.4",
+  "docs/api/structures/usb-device.md": "v23.0.0-nightly.20221122",
   "docs/api/structures/shared-worker-info.md": "v8.0.0-beta.1",
   "docs/api/structures/task.md": "v1.4.4",
   "docs/api/structures/user-default-types.md": "v14.0.0-beta.1",
