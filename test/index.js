@@ -1,5 +1,5 @@
 require('chai').should()
-const {describe, it} = require('mocha')
+const { describe, it } = require('mocha')
 const historian = require('..')
 
 describe('historian', () => {

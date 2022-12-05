@@ -7,13 +7,13 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.1.2",
-    "dugite": "^1.53.0",
+    "dugite": "^2.1.0",
     "lodash": "^4.17.4",
     "make-promises-safe": "^1.1.0",
-    "mocha": "^4.0.1",
-    "semantic-release": "^17.2.3",
+    "mocha": "^10.1.0",
+    "semantic-release": "^19.0.3",
     "semver": "^5.4.1",
-    "standard": "^10.0.3"
+    "standard": "^17.0.0"
   },
   "scripts": {
     "update": "./script/update.sh",
