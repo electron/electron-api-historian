@@ -8,7 +8,7 @@ set -o nounset    # fail on unset variables
 git clone "https://electron-bot:$GH_TOKEN@github.com/electron/electron-api-historian" module
 cd module
 git submodule update --init
-npm ci
+yarn install --frozen-lockfile
 
 git config user.email electron@github.com
 git config user.name electron-bot
@@ -23,7 +23,7 @@ fi
 git add electron
 ELECTRON_SHA=$(git submodule status --cached electron | awk '{print $1}')
 
-npm run build
+yarn run build
 
 # bail if the data didn't change;
 # the build script will change the checked out submodule sha,
@@ -33,7 +33,7 @@ if [ "$(git status --porcelain -- index.json)" = "" ]; then
   exit 0
 fi
 
-npm test
+yarn test
 
 git add index.json
 git commit -am "feat: update history (electron@$ELECTRON_SHA)"

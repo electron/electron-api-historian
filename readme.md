@@ -1,5 +1,7 @@
 # electron-api-historian 
 
+[![CI](https://github.com/electron/electron-api-historian/actions/workflows/push.yml/badge.svg)](https://github.com/electron/electron-api-historian/actions/workflows/push.yml)
+
 Find the birthday of every Electron API
 
 ## Installation
@@ -12,8 +14,8 @@ npm install electron-api-historian --save
 ## Tests
 
 ```sh
-npm install
-npm test
+yarn install
+yarn test
 ```
 
 ## Dependencies
