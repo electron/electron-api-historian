@@ -29,7 +29,7 @@ None
 - [mocha](https://github.com/mochajs/mocha): simple, flexible, fun test framework
 - [semver](https://github.com/semver/semver): The semantic version parser used by npm.
 - [standard](https://github.com/standard/standard): JavaScript Standard Style
-- [standard-markdown](): Test your Markdown files for Standard JavaScript Style™
+- [standard-markdown](https://github.com/zeke/standard-markdown): Test your Markdown files for Standard JavaScript Style™
 
 
 ## License
